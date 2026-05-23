@@ -62,7 +62,7 @@ All examples are runnable and demonstrate how private DNS composes with reusable
 
 ```hcl
 module "private_dns" {
-  source = "git::https://github.com/mlinxfeld/terraform-oci-fk-private-dns.git?ref=v0.1.0"
+  source = "git::https://github.com/foggykitchen/terraform-oci-fk-private-dns.git?ref=v0.1.0"
 
   compartment_ocid = var.compartment_ocid
   name             = "fk-private-dns"
