@@ -46,7 +46,7 @@ tofu apply
 ## Related Resources
 
 - [FoggyKitchen OCI Private DNS Module (terraform-oci-fk-private-dns)](../)
-- [FoggyKitchen OCI VCN Module (terraform-oci-fk-vcn)](https://github.com/mlinxfeld/terraform-oci-fk-vcn)
+- [FoggyKitchen OCI VCN Module (terraform-oci-fk-vcn)](https://github.com/foggykitchen/terraform-oci-fk-vcn)
 - [FoggyKitchen Legacy OCI Private DNS Repository (terraform-oci-private-dns)](https://github.com/mlinxfeld/terraform-oci-private-dns)
 
 ---
