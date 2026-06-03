@@ -4,6 +4,8 @@ This repository contains a reusable **Terraform/OpenTofu module** and progressiv
 
 It is part of the **[FoggyKitchen.com training ecosystem](https://foggykitchen.com/courses-2/)** and serves as the OCI private name-resolution building block for platform networking, private services, and multicloud training scenarios.
 
+Support expectations are documented in [SUPPORT.md](SUPPORT.md).
+
 ---
 
 ## 🎯 Purpose
