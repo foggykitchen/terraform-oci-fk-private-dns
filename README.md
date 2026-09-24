@@ -2,7 +2,7 @@
 
 This repository contains a reusable **Terraform/OpenTofu module** and progressive examples for deploying **Oracle Cloud Infrastructure (OCI) Private DNS** resources such as **views**, **private zones**, and **RRsets**, composed cleanly with reusable VCN foundations.
 
-It is part of the **[FoggyKitchen.com training ecosystem](https://foggykitchen.com/courses-2/)** and serves as the OCI private name-resolution building block for platform networking, private services, and multicloud training scenarios.
+It is part of the **[FoggyKitchen.com training ecosystem](https://foggykitchen.com/)** and serves as the OCI private name-resolution building block for platform networking, private services, and multicloud training scenarios.
 
 Support expectations are documented in [SUPPORT.md](SUPPORT.md).
 
