@@ -12,6 +12,7 @@ These examples are part of the **[FoggyKitchen.com training ecosystem](https://f
 | Example | Title | Key Topics |
 |:-------:|:------|:-----------|
 | 01 | **Basic Private Zone** | private DNS view, private zone, A record, VCN-associated resolver, `terraform-oci-fk-vcn` integration |
+| 02 | **Private Zone With Compute** | private DNS view, private zone, A record, OCI compute instance, `terraform-oci-fk-vcn` and `terraform-oci-fk-compute` integration |
 
 ---
 
@@ -32,6 +33,16 @@ tofu plan
 tofu apply
 ```
 
+To run the private zone with compute example:
+
+```bash
+cd examples/02-private-zone-with-compute
+cp terraform.tfvars.example terraform.tfvars
+tofu init
+tofu plan
+tofu apply
+```
+
 ---
 
 ## Design Principles
@@ -39,7 +50,7 @@ tofu apply
 - One example = one architectural goal
 - No unused or placeholder resources
 - Clear separation of concerns between networking and private DNS
-- Examples designed to compose cleanly with modules such as VCN
+- Examples designed to compose cleanly with modules such as VCN and Compute
 
 ---
 
